@@ -10,6 +10,7 @@ lerna-debug.log*
 .workbuddy/
 node_modules
 dist-ssr
+.vite/
 *.local
 
 # Editor directories and files
