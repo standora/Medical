@@ -49,9 +49,10 @@ const DrugInteractionPage = React.lazy(() => import('../pages/quality/DrugIntera
 const DrugTracePage = React.lazy(() => import('../pages/quality/DrugTracePage'));
 const StatsPage = React.lazy(() => import('../pages/stats/StatsPage'));
 
-export const router = createBrowserRouter([
-  {
-    path: '/login',
+export const router = createBrowserRouter(
+  [
+    {
+      path: '/login',
     element: LazyLoad(LoginPage),
     errorElement: <RouteErrorBoundary />,
   },
@@ -88,4 +89,6 @@ export const router = createBrowserRouter([
     path: '*',
     element: <Navigate to="/dashboard" replace />,
   },
-]);
+],
+  { basename: '/Medical/' },
+);
