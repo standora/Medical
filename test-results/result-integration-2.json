@@ -1,0 +1,254 @@
+{
+  "testSuite": "算法验证+角色视角测试",
+  "timestamp": "2026-06-14T11:57:31.307158",
+  "results": [
+    {
+      "testId": "LOGIN",
+      "flow": "登录",
+      "step": "管理员登录",
+      "status": "PASS",
+      "jsErrors": [],
+      "detail": "成功登录并跳转到首页"
+    },
+    {
+      "testId": "A3.1",
+      "flow": "自动补货算法",
+      "step": "AI智能补货描述可见",
+      "status": "PASS",
+      "jsErrors": [],
+      "detail": "页面加载成功，AI智能补货描述可见"
+    },
+    {
+      "testId": "A3.1",
+      "flow": "自动补货算法",
+      "step": "统计卡片可见",
+      "status": "PASS",
+      "jsErrors": [],
+      "detail": "待确认/已确认/平均置信度卡片均可见"
+    },
+    {
+      "testId": "A3.1",
+      "flow": "自动补货算法",
+      "step": "数据表格加载验证",
+      "status": "PASS",
+      "jsErrors": [],
+      "detail": "表格有10行数据; 表头包含: 机构名称, 药品名称, 建议补货量, 触发类型, 置信度, 确认状态; 触发类型Tag可见; 置信度Progress可见"
+    },
+    {
+      "testId": "A3.1",
+      "flow": "自动补货算法",
+      "step": "AlgorithmResult组件验证",
+      "status": "PASS",
+      "jsErrors": [],
+      "detail": "置信度数值/确认按钮/拒绝按钮均可见"
+    },
+    {
+      "testId": "A3.1",
+      "flow": "自动补货算法",
+      "step": "点击确认按钮验证",
+      "status": "PASS",
+      "jsErrors": [],
+      "detail": "确认操作成功，状态已变化"
+    },
+    {
+      "testId": "A3.1",
+      "flow": "自动补货算法",
+      "step": "点击拒绝按钮验证",
+      "status": "PASS",
+      "jsErrors": [],
+      "detail": "拒绝操作成功，状态已变化"
+    },
+    {
+      "testId": "A3.2",
+      "flow": "智能调剂算法",
+      "step": "调剂列表加载",
+      "status": "PASS",
+      "jsErrors": [],
+      "detail": "列表加载成功，有6行数据"
+    },
+    {
+      "testId": "A3.2",
+      "flow": "智能调剂算法",
+      "step": "智能推荐标识验证",
+      "status": "PASS",
+      "jsErrors": [],
+      "detail": "智能推荐行标识可见: Robot图标Tag可见, 蓝色背景行有3行"
+    },
+    {
+      "testId": "A3.2",
+      "flow": "智能调剂算法",
+      "step": "智能推荐行操作按钮验证",
+      "status": "PASS",
+      "jsErrors": [],
+      "detail": "操作按钮可见: 审批(2), 发货(1), 确认收货(1)"
+    },
+    {
+      "testId": "A3.2",
+      "flow": "智能调剂算法",
+      "step": "审批按钮状态变化验证",
+      "status": "PASS",
+      "jsErrors": [],
+      "detail": "审批成功，状态从PENDING变为APPROVED"
+    },
+    {
+      "testId": "A3.3",
+      "flow": "智能预警算法",
+      "step": "预警列表加载",
+      "status": "PASS",
+      "jsErrors": [],
+      "detail": "列表加载成功，有10行数据"
+    },
+    {
+      "testId": "A3.3",
+      "flow": "智能预警算法",
+      "step": "预警类型Tag验证",
+      "status": "PASS",
+      "jsErrors": [],
+      "detail": "可见预警类型: 超上限, 低于下限, 近效期, 缺货预测"
+    },
+    {
+      "testId": "A3.3",
+      "flow": "智能预警算法",
+      "step": "预警级别Tag验证",
+      "status": "PASS",
+      "jsErrors": [],
+      "detail": "可见预警级别: 信息, 预警, 严重"
+    },
+    {
+      "testId": "A3.3",
+      "flow": "智能预警算法",
+      "step": "操作按钮验证",
+      "status": "PASS",
+      "jsErrors": [],
+      "detail": "操作按钮可见: 确认按钮(4个), 标记解决按钮(7个)"
+    },
+    {
+      "testId": "A3.3",
+      "flow": "智能预警算法",
+      "step": "确认按钮状态变化验证",
+      "status": "PASS",
+      "jsErrors": [],
+      "detail": "确认成功，状态从PENDING变为ACKNOWLEDGED"
+    },
+    {
+      "testId": "A3.3",
+      "flow": "智能预警算法",
+      "step": "标记解决按钮状态变化验证",
+      "status": "PASS",
+      "jsErrors": [],
+      "detail": "标记解决成功，状态变为RESOLVED"
+    },
+    {
+      "testId": "R4.1",
+      "flow": "管理员视角",
+      "step": "侧边栏8+模块菜单验证",
+      "status": "PASS",
+      "jsErrors": [],
+      "detail": "可见9个模块: 首页总览, 统一用药目录, 统一采购, 统一库存, 统一配送, 统一结算, 处方流转, 药事质控, 统计分析"
+    },
+    {
+      "testId": "R4.1",
+      "flow": "管理员视角",
+      "step": "所有模块页面可访问",
+      "status": "PASS",
+      "jsErrors": [],
+      "detail": "全部14个页面可访问且无JS错误"
+    },
+    {
+      "testId": "R4.1",
+      "flow": "管理员视角",
+      "step": "Dashboard首页统计卡片验证",
+      "status": "PASS",
+      "jsErrors": [],
+      "detail": "统计卡片可见，共6个"
+    },
+    {
+      "testId": "R4.1",
+      "flow": "管理员视角",
+      "step": "统计分析4个Tab可切换验证",
+      "status": "PASS",
+      "jsErrors": [],
+      "detail": "Tab数量: 4, 标签: 采购统计, 库存统计, 配送统计, 处方统计"
+    },
+    {
+      "testId": "R4.2",
+      "flow": "药师视角",
+      "step": "切换到药师角色",
+      "status": "PASS",
+      "jsErrors": [],
+      "detail": "角色切换成功，当前用户: 张药师"
+    },
+    {
+      "testId": "R4.2",
+      "flow": "药师视角",
+      "step": "处方列表加载",
+      "status": "PASS",
+      "jsErrors": [],
+      "detail": "处方列表加载成功，20行数据"
+    },
+    {
+      "testId": "R4.2",
+      "flow": "药师视角",
+      "step": "处方详情Drawer验证",
+      "status": "PASS",
+      "jsErrors": [],
+      "detail": "Drawer打开成功，基本信息可见，审核结果不可见"
+    },
+    {
+      "testId": "R4.2",
+      "flow": "药师视角",
+      "step": "自动补货页面确认/拒绝按钮验证",
+      "status": "PASS",
+      "jsErrors": [],
+      "detail": "确认/拒绝按钮可见"
+    },
+    {
+      "testId": "R4.2",
+      "flow": "药师视角",
+      "step": "库存预警页面操作按钮验证",
+      "status": "PASS",
+      "jsErrors": [],
+      "detail": "操作按钮可见: 确认=True, 标记解决=True"
+    },
+    {
+      "testId": "R4.3",
+      "flow": "村医视角",
+      "step": "切换到村医角色",
+      "status": "PASS",
+      "jsErrors": [],
+      "detail": "角色切换成功，当前用户: 李村医"
+    },
+    {
+      "testId": "R4.3",
+      "flow": "村医视角",
+      "step": "开具处方表单验证",
+      "status": "PASS",
+      "jsErrors": [],
+      "detail": "开方表单/机构选择器/药品列表区域均可见"
+    },
+    {
+      "testId": "R4.3",
+      "flow": "村医视角",
+      "step": "零库存托管页面验证",
+      "status": "PASS",
+      "jsErrors": [],
+      "detail": "零库存托管页面加载成功，15行配置数据"
+    }
+  ],
+  "summary": {
+    "totalSteps": 29,
+    "passed": 29,
+    "failed": 0,
+    "totalJsErrors": 0,
+    "algorithmResults": {
+      "自动补货": "PASS",
+      "智能调剂": "PASS",
+      "智能预警": "PASS"
+    },
+    "roleResults": {
+      "管理员": "PASS",
+      "药师": "PASS",
+      "村医": "PASS"
+    }
+  }
+}

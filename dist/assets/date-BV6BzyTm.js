@@ -1,0 +1,1 @@
+import{_r as e}from"./jsx-runtime-B-7tqxq-.js";import{t}from"./dayjs.min-ok51EBfg.js";var n=e(t(),1),r=(e,t=`YYYY-MM-DD`)=>(0,n.default)(e).format(t),i=e=>(0,n.default)(e).format(`YYYY-MM-DD HH:mm:ss`),a=e=>(0,n.default)(e).diff((0,n.default)(),`day`);export{r as n,i as r,a as t};

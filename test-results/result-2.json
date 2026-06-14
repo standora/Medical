@@ -1,0 +1,298 @@
+{
+  "testSuite": "库存+配送+结算",
+  "timestamp": "2026-06-14T10:35:27.459544+08:00",
+  "results": [
+    {
+      "testId": "5.1",
+      "module": "统一库存",
+      "step": "登录管理员角色",
+      "status": "PASS",
+      "detail": "验证通过"
+    },
+    {
+      "testId": "5.2",
+      "module": "统一库存",
+      "step": "点击侧边栏统一库存展开子菜单",
+      "status": "PASS",
+      "detail": "验证通过"
+    },
+    {
+      "testId": "5.3",
+      "module": "统一库存",
+      "step": "点击库存总览",
+      "status": "PASS",
+      "detail": "验证通过"
+    },
+    {
+      "testId": "5.4",
+      "module": "统一库存",
+      "step": "验证库存总览搜索区域可见",
+      "status": "PASS",
+      "detail": "验证通过"
+    },
+    {
+      "testId": "5.5",
+      "module": "统一库存",
+      "step": "验证库存总览统计卡片可见（4个）",
+      "status": "PASS",
+      "detail": "验证通过"
+    },
+    {
+      "testId": "5.6",
+      "module": "统一库存",
+      "step": "验证库存总览数据表格可见且有数据行",
+      "status": "PASS",
+      "detail": "验证通过"
+    },
+    {
+      "testId": "5.7",
+      "module": "统一库存",
+      "step": "点击库存预警",
+      "status": "PASS",
+      "detail": "验证通过"
+    },
+    {
+      "testId": "5.8",
+      "module": "统一库存",
+      "step": "验证库存预警统计卡片可见（3个）",
+      "status": "PASS",
+      "detail": "验证通过"
+    },
+    {
+      "testId": "5.9",
+      "module": "统一库存",
+      "step": "验证预警类型Tag可见",
+      "status": "PASS",
+      "detail": "验证通过"
+    },
+    {
+      "testId": "5.10",
+      "module": "统一库存",
+      "step": "验证预警级别Tag可见（INFO蓝/WARNING橙/CRITICAL红）",
+      "status": "PASS",
+      "detail": "验证通过"
+    },
+    {
+      "testId": "5.11",
+      "module": "统一库存",
+      "step": "点击库存调剂",
+      "status": "PASS",
+      "detail": "验证通过"
+    },
+    {
+      "testId": "5.12",
+      "module": "统一库存",
+      "step": "验证库存调剂页面加载",
+      "status": "PASS",
+      "detail": "验证通过"
+    },
+    {
+      "testId": "5.13",
+      "module": "统一库存",
+      "step": "验证智能推荐标识可见",
+      "status": "PASS",
+      "detail": "验证通过"
+    },
+    {
+      "testId": "5.14",
+      "module": "统一库存",
+      "step": "点击零库存托管",
+      "status": "PASS",
+      "detail": "验证通过"
+    },
+    {
+      "testId": "5.15",
+      "module": "统一库存",
+      "step": "验证零库存托管页面加载",
+      "status": "PASS",
+      "detail": "验证通过"
+    },
+    {
+      "testId": "5.16",
+      "module": "统一库存",
+      "step": "验证页面描述文字包含零库存托管",
+      "status": "PASS",
+      "detail": "验证通过"
+    },
+    {
+      "testId": "5.17",
+      "module": "统一库存",
+      "step": "验证零库存托管统计卡片可见（3个）",
+      "status": "PASS",
+      "detail": "验证通过"
+    },
+    {
+      "testId": "5.18",
+      "module": "统一库存",
+      "step": "验证零库存托管数据表格包含Switch开关",
+      "status": "PASS",
+      "detail": "验证通过"
+    },
+    {
+      "testId": "5.19",
+      "module": "统一库存",
+      "step": "点击自动补货",
+      "status": "PASS",
+      "detail": "验证通过"
+    },
+    {
+      "testId": "5.20",
+      "module": "统一库存",
+      "step": "验证自动补货页面加载",
+      "status": "PASS",
+      "detail": "验证通过"
+    },
+    {
+      "testId": "5.21",
+      "module": "统一库存",
+      "step": "验证页面描述文字包含AI智能补货",
+      "status": "PASS",
+      "detail": "验证通过"
+    },
+    {
+      "testId": "5.22",
+      "module": "统一库存",
+      "step": "验证自动补货统计卡片可见（3个）",
+      "status": "PASS",
+      "detail": "验证通过"
+    },
+    {
+      "testId": "5.23",
+      "module": "统一库存",
+      "step": "验证置信度Progress组件可见",
+      "status": "PASS",
+      "detail": "验证通过"
+    },
+    {
+      "testId": "5.24",
+      "module": "统一库存",
+      "step": "验证触发类型Tag可见",
+      "status": "PASS",
+      "detail": "验证通过"
+    },
+    {
+      "testId": "6.1",
+      "module": "统一配送",
+      "step": "点击侧边栏统一配送展开子菜单",
+      "status": "PASS",
+      "detail": "验证通过"
+    },
+    {
+      "testId": "6.2",
+      "module": "统一配送",
+      "step": "点击配送列表",
+      "status": "PASS",
+      "detail": "验证通过"
+    },
+    {
+      "testId": "6.3",
+      "module": "统一配送",
+      "step": "验证配送列表页面统计卡片可见",
+      "status": "PASS",
+      "detail": "验证通过"
+    },
+    {
+      "testId": "6.4",
+      "module": "统一配送",
+      "step": "验证配送类型Tag可见",
+      "status": "PASS",
+      "detail": "验证通过"
+    },
+    {
+      "testId": "6.5",
+      "module": "统一配送",
+      "step": "点击配送跟踪",
+      "status": "PASS",
+      "detail": "验证通过"
+    },
+    {
+      "testId": "6.6",
+      "module": "统一配送",
+      "step": "验证配送跟踪页面加载",
+      "status": "PASS",
+      "detail": "验证通过"
+    },
+    {
+      "testId": "6.7",
+      "module": "统一配送",
+      "step": "点击冷链监控",
+      "status": "PASS",
+      "detail": "验证通过"
+    },
+    {
+      "testId": "6.8",
+      "module": "统一配送",
+      "step": "验证冷链监控页面加载",
+      "status": "PASS",
+      "detail": "验证通过"
+    },
+    {
+      "testId": "6.9",
+      "module": "统一配送",
+      "step": "验证冷链监控统计卡片可见",
+      "status": "PASS",
+      "detail": "验证通过"
+    },
+    {
+      "testId": "7.1",
+      "module": "统一结算",
+      "step": "点击侧边栏统一结算展开子菜单",
+      "status": "PASS",
+      "detail": "验证通过"
+    },
+    {
+      "testId": "7.2",
+      "module": "统一结算",
+      "step": "点击结算列表",
+      "status": "PASS",
+      "detail": "验证通过"
+    },
+    {
+      "testId": "7.3",
+      "module": "统一结算",
+      "step": "验证结算列表页面统计卡片可见",
+      "status": "PASS",
+      "detail": "验证通过"
+    },
+    {
+      "testId": "7.4",
+      "module": "统一结算",
+      "step": "验证结算模式Tag可见",
+      "status": "PASS",
+      "detail": "验证通过"
+    },
+    {
+      "testId": "7.5",
+      "module": "统一结算",
+      "step": "验证结算维度Tag可见",
+      "status": "PASS",
+      "detail": "验证通过"
+    },
+    {
+      "testId": "7.6",
+      "module": "统一结算",
+      "step": "点击对账管理",
+      "status": "PASS",
+      "detail": "验证通过"
+    },
+    {
+      "testId": "7.7",
+      "module": "统一结算",
+      "step": "验证对账管理页面加载",
+      "status": "PASS",
+      "detail": "验证通过"
+    },
+    {
+      "testId": "7.8",
+      "module": "统一结算",
+      "step": "验证确认状态Tag可见",
+      "status": "PASS",
+      "detail": "验证通过"
+    }
+  ],
+  "summary": {
+    "total": 41,
+    "passed": 41,
+    "failed": 0
+  }
+}

@@ -1,0 +1,1 @@
+import{t as e}from"./api-D8VGzv1f.js";var t={getRules:()=>e.get(`/api/v1/quality/rules`),getTraces:()=>e.get(`/api/v1/quality/traces`),createRule:t=>e.post(`/api/v1/quality/rules`,t),updateRule:(t,n)=>e.put(`/api/v1/quality/rules/${t}`,n),deleteRule:t=>e.delete(`/api/v1/quality/rules/${t}`)};export{t};

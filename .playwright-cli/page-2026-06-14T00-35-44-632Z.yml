@@ -1,0 +1,11 @@
+- generic [ref=e2]:
+  - heading "Unexpected Application Error!" [level=2] [ref=e31]
+  - heading "The requested module '/node_modules/.vite/deps/@ant-design_icons.js?v=0c942cc5' does not provide an export named 'HospitalOutlined'" [level=3] [ref=e32]
+  - generic [ref=e33]: "SyntaxError: The requested module '/node_modules/.vite/deps/@ant-design_icons.js?v=0c942cc5' does not provide an export named 'HospitalOutlined'"
+  - paragraph [ref=e34]: 💿 Hey developer 👋
+  - paragraph [ref=e35]:
+    - text: You can provide a way better UX than this when your app throws errors by providing your own
+    - code [ref=e36]: ErrorBoundary
+    - text: or
+    - code [ref=e37]: errorElement
+    - text: prop on your route.

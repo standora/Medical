@@ -1,0 +1,1 @@
+function e(e){let t=e??600+Math.random()*600;return new Promise(e=>setTimeout(e,t))}export{e as t};

@@ -1,0 +1,291 @@
+{
+  "testSuite": "登录+首页+目录+采购",
+  "timestamp": "2026-06-14T10:53:51.089563+08:00",
+  "results": [
+    {
+      "testId": "1.1",
+      "module": "登录与角色切换",
+      "step": "打开登录页",
+      "status": "PASS",
+      "detail": "通过",
+      "screenshot": "d:\\Demo\\medical\\test-results\\step-1-1.png"
+    },
+    {
+      "testId": "1.2",
+      "module": "登录与角色切换",
+      "step": "验证登录页显示3个角色卡片",
+      "status": "PASS",
+      "detail": "通过",
+      "screenshot": "d:\\Demo\\medical\\test-results\\step-1-2.png"
+    },
+    {
+      "testId": "1.3",
+      "module": "登录与角色切换",
+      "step": "点击管理员角色登录",
+      "status": "PASS",
+      "detail": "通过",
+      "screenshot": "d:\\Demo\\medical\\test-results\\step-1-3.png"
+    },
+    {
+      "testId": "1.4",
+      "module": "登录与角色切换",
+      "step": "验证跳转到Dashboard首页",
+      "status": "PASS",
+      "detail": "通过",
+      "screenshot": "d:\\Demo\\medical\\test-results\\step-1-4.png"
+    },
+    {
+      "testId": "1.5",
+      "module": "登录与角色切换",
+      "step": "验证侧边栏菜单可见",
+      "status": "PASS",
+      "detail": "通过",
+      "screenshot": "d:\\Demo\\medical\\test-results\\step-1-5.png"
+    },
+    {
+      "testId": "1.6",
+      "module": "登录与角色切换",
+      "step": "验证顶栏显示用户信息",
+      "status": "PASS",
+      "detail": "通过",
+      "screenshot": "d:\\Demo\\medical\\test-results\\step-1-6.png"
+    },
+    {
+      "testId": "1.7",
+      "module": "登录与角色切换",
+      "step": "点击用户下拉菜单中的角色切换",
+      "status": "PASS",
+      "detail": "通过",
+      "screenshot": "d:\\Demo\\medical\\test-results\\step-1-7.png"
+    },
+    {
+      "testId": "1.8",
+      "module": "登录与角色切换",
+      "step": "切换到药师角色",
+      "status": "PASS",
+      "detail": "通过",
+      "screenshot": "d:\\Demo\\medical\\test-results\\step-1-8.png"
+    },
+    {
+      "testId": "1.9",
+      "module": "登录与角色切换",
+      "step": "切换回管理员角色",
+      "status": "PASS",
+      "detail": "通过",
+      "screenshot": "d:\\Demo\\medical\\test-results\\step-1-9.png"
+    },
+    {
+      "testId": "2.1",
+      "module": "Dashboard首页",
+      "step": "验证6个统计卡片可见",
+      "status": "PASS",
+      "detail": "通过",
+      "screenshot": "d:\\Demo\\medical\\test-results\\step-2-1.png"
+    },
+    {
+      "testId": "2.2",
+      "module": "Dashboard首页",
+      "step": "验证快捷入口区域可见",
+      "status": "PASS",
+      "detail": "通过",
+      "screenshot": "d:\\Demo\\medical\\test-results\\step-2-2.png"
+    },
+    {
+      "testId": "2.3",
+      "module": "Dashboard首页",
+      "step": "点击用药目录快捷入口",
+      "status": "PASS",
+      "detail": "通过",
+      "screenshot": "d:\\Demo\\medical\\test-results\\step-2-3.png"
+    },
+    {
+      "testId": "2.4",
+      "module": "Dashboard首页",
+      "step": "验证跳转到用药目录页面",
+      "status": "PASS",
+      "detail": "通过",
+      "screenshot": "d:\\Demo\\medical\\test-results\\step-2-4.png"
+    },
+    {
+      "testId": "2.5",
+      "module": "Dashboard首页",
+      "step": "返回Dashboard",
+      "status": "PASS",
+      "detail": "通过",
+      "screenshot": "d:\\Demo\\medical\\test-results\\step-2-5.png"
+    },
+    {
+      "testId": "3.1",
+      "module": "统一用药目录",
+      "step": "从侧边栏点击统一用药目录",
+      "status": "PASS",
+      "detail": "通过",
+      "screenshot": "d:\\Demo\\medical\\test-results\\step-3-1.png"
+    },
+    {
+      "testId": "3.2",
+      "module": "统一用药目录",
+      "step": "验证搜索区域可见",
+      "status": "PASS",
+      "detail": "通过",
+      "screenshot": "d:\\Demo\\medical\\test-results\\step-3-2.png"
+    },
+    {
+      "testId": "3.3",
+      "module": "统一用药目录",
+      "step": "验证数据表格可见且有数据行",
+      "status": "PASS",
+      "detail": "通过",
+      "screenshot": "d:\\Demo\\medical\\test-results\\step-3-3.png"
+    },
+    {
+      "testId": "3.4",
+      "module": "统一用药目录",
+      "step": "验证目录类型Tag可见",
+      "status": "PASS",
+      "detail": "通过",
+      "screenshot": "d:\\Demo\\medical\\test-results\\step-3-4.png"
+    },
+    {
+      "testId": "3.5",
+      "module": "统一用药目录",
+      "step": "验证状态Tag可见",
+      "status": "PASS",
+      "detail": "通过",
+      "screenshot": "d:\\Demo\\medical\\test-results\\step-3-5.png"
+    },
+    {
+      "testId": "3.6",
+      "module": "统一用药目录",
+      "step": "点击某行的详情按钮",
+      "status": "PASS",
+      "detail": "通过",
+      "screenshot": "d:\\Demo\\medical\\test-results\\step-3-6.png"
+    },
+    {
+      "testId": "3.7",
+      "module": "统一用药目录",
+      "step": "验证Drawer打开显示药品详情信息",
+      "status": "PASS",
+      "detail": "通过",
+      "screenshot": "d:\\Demo\\medical\\test-results\\step-3-7.png"
+    },
+    {
+      "testId": "3.8",
+      "module": "统一用药目录",
+      "step": "关闭Drawer",
+      "status": "PASS",
+      "detail": "通过",
+      "screenshot": "d:\\Demo\\medical\\test-results\\step-3-8.png"
+    },
+    {
+      "testId": "3.9",
+      "module": "统一用药目录",
+      "step": "点击新增药品按钮",
+      "status": "PASS",
+      "detail": "通过",
+      "screenshot": "d:\\Demo\\medical\\test-results\\step-3-9.png"
+    },
+    {
+      "testId": "3.10",
+      "module": "统一用药目录",
+      "step": "验证Modal打开表单可见",
+      "status": "PASS",
+      "detail": "通过",
+      "screenshot": "d:\\Demo\\medical\\test-results\\step-3-10.png"
+    },
+    {
+      "testId": "3.11",
+      "module": "统一用药目录",
+      "step": "关闭Modal",
+      "status": "PASS",
+      "detail": "通过",
+      "screenshot": "d:\\Demo\\medical\\test-results\\step-3-11.png"
+    },
+    {
+      "testId": "4.1",
+      "module": "统一采购",
+      "step": "点击侧边栏统一采购展开子菜单",
+      "status": "PASS",
+      "detail": "通过",
+      "screenshot": "d:\\Demo\\medical\\test-results\\step-4-1.png"
+    },
+    {
+      "testId": "4.2",
+      "module": "统一采购",
+      "step": "点击采购计划",
+      "status": "PASS",
+      "detail": "通过",
+      "screenshot": "d:\\Demo\\medical\\test-results\\step-4-2.png"
+    },
+    {
+      "testId": "4.3",
+      "module": "统一采购",
+      "step": "验证采购计划页面加载数据表格可见",
+      "status": "PASS",
+      "detail": "通过",
+      "screenshot": "d:\\Demo\\medical\\test-results\\step-4-3.png"
+    },
+    {
+      "testId": "4.4",
+      "module": "统一采购",
+      "step": "展开某行查看采购明细",
+      "status": "PASS",
+      "detail": "通过",
+      "screenshot": "d:\\Demo\\medical\\test-results\\step-4-4.png"
+    },
+    {
+      "testId": "4.5",
+      "module": "统一采购",
+      "step": "点击采购订单",
+      "status": "PASS",
+      "detail": "通过",
+      "screenshot": "d:\\Demo\\medical\\test-results\\step-4-5.png"
+    },
+    {
+      "testId": "4.6",
+      "module": "统一采购",
+      "step": "验证采购订单页面加载统计卡片可见",
+      "status": "PASS",
+      "detail": "通过",
+      "screenshot": "d:\\Demo\\medical\\test-results\\step-4-6.png"
+    },
+    {
+      "testId": "4.7",
+      "module": "统一采购",
+      "step": "验证采购订单数据表格可见",
+      "status": "PASS",
+      "detail": "通过",
+      "screenshot": "d:\\Demo\\medical\\test-results\\step-4-7.png"
+    },
+    {
+      "testId": "4.8",
+      "module": "统一采购",
+      "step": "点击集采统计",
+      "status": "PASS",
+      "detail": "通过",
+      "screenshot": "d:\\Demo\\medical\\test-results\\step-4-8.png"
+    },
+    {
+      "testId": "4.9",
+      "module": "统一采购",
+      "step": "验证集采统计页面加载统计卡片可见",
+      "status": "PASS",
+      "detail": "通过",
+      "screenshot": "d:\\Demo\\medical\\test-results\\step-4-9.png"
+    },
+    {
+      "testId": "4.10",
+      "module": "统一采购",
+      "step": "验证执行率Progress组件可见",
+      "status": "PASS",
+      "detail": "通过",
+      "screenshot": "d:\\Demo\\medical\\test-results\\step-4-10.png"
+    }
+  ],
+  "summary": {
+    "total": 35,
+    "passed": 35,
+    "failed": 0
+  }
+}

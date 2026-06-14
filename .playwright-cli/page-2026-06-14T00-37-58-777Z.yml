@@ -1,0 +1,67 @@
+- generic [ref=e31]:
+  - complementary [ref=e32]:
+    - generic [ref=e33]:
+      - generic [ref=e34]: 医共体药品管理
+      - menu [ref=e35]:
+        - menuitem "dashboard 首页总览" [ref=e36] [cursor=pointer]:
+          - img "dashboard" [ref=e37]:
+            - img [ref=e38]
+          - generic [ref=e40]: 首页总览
+        - menuitem "medicine-box 统一用药目录" [ref=e41] [cursor=pointer]:
+          - img "medicine-box" [ref=e42]:
+            - img [ref=e43]
+          - generic [ref=e45]: 统一用药目录
+        - menuitem "shopping-cart 统一采购" [expanded] [active] [ref=e46] [cursor=pointer]:
+          - img "shopping-cart" [ref=e47]:
+            - img [ref=e48]
+          - generic [ref=e50]: 统一采购
+        - menu [ref=e190]:
+          - menuitem "采购计划" [ref=e191] [cursor=pointer]:
+            - generic [ref=e192]: 采购计划
+          - menuitem "采购订单" [ref=e193] [cursor=pointer]:
+            - generic [ref=e194]: 采购订单
+          - menuitem "集采统计" [ref=e195] [cursor=pointer]:
+            - generic [ref=e196]: 集采统计
+        - menuitem "database 统一库存" [ref=e51] [cursor=pointer]:
+          - img "database" [ref=e52]:
+            - img [ref=e53]
+          - generic [ref=e55]: 统一库存
+        - menuitem "car 统一配送" [ref=e56] [cursor=pointer]:
+          - img "car" [ref=e57]:
+            - img [ref=e58]
+          - generic [ref=e60]: 统一配送
+        - menuitem "pay-circle 统一结算" [ref=e61] [cursor=pointer]:
+          - img "pay-circle" [ref=e62]:
+            - img [ref=e63]
+          - generic [ref=e65]: 统一结算
+        - menuitem "file-text 处方流转" [ref=e66] [cursor=pointer]:
+          - img "file-text" [ref=e67]:
+            - img [ref=e68]
+          - generic [ref=e70]: 处方流转
+        - menuitem "safety 药事质控" [ref=e71] [cursor=pointer]:
+          - img "safety" [ref=e72]:
+            - img [ref=e73]
+          - generic [ref=e76]: 药事质控
+        - menuitem "bar-chart 统计分析" [ref=e77] [cursor=pointer]:
+          - img "bar-chart" [ref=e78]:
+            - img [ref=e79]
+          - generic [ref=e81]: 统计分析
+    - img "left" [ref=e83] [cursor=pointer]:
+      - img [ref=e84]
+  - generic [ref=e86]:
+    - banner [ref=e87]:
+      - navigation [ref=e88]:
+        - list [ref=e89]:
+          - listitem [ref=e90]: 医共体药品管理平台
+      - generic [ref=e91]:
+        - generic [ref=e93]:
+          - img "bell" [ref=e94] [cursor=pointer]:
+            - img [ref=e95]
+          - superscript [ref=e97]:
+            - generic [ref=e99]: "7"
+        - generic [ref=e101] [cursor=pointer]:
+          - img "user" [ref=e104]:
+            - img [ref=e105]
+          - generic [ref=e107]: 系统管理员
+    - main [ref=e108]:
+      - generic [ref=e189]: 统一用药目录

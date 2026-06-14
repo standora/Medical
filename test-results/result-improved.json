@@ -1,0 +1,269 @@
+{
+  "testSuite": "改进版E2E测试（含JS错误捕获）",
+  "timestamp": "2026-06-14T11:37:43.748090",
+  "results": [
+    {
+      "testId": "P01",
+      "page": "/dashboard",
+      "pageName": "首页总览",
+      "jsErrors": [],
+      "hasCrash": false,
+      "tableRowCount": 0,
+      "screenshot": "d:\\Demo\\medical\\test-results\\improved-_dashboard.png",
+      "status": "PASS",
+      "detail": "崩溃=False, JS错误=0, 表格行=0"
+    },
+    {
+      "testId": "P02",
+      "page": "/catalog",
+      "pageName": "统一用药目录",
+      "jsErrors": [],
+      "hasCrash": false,
+      "tableRowCount": 11,
+      "screenshot": "d:\\Demo\\medical\\test-results\\improved-_catalog.png",
+      "status": "PASS",
+      "detail": "崩溃=False, JS错误=0, 表格行=11"
+    },
+    {
+      "testId": "P03",
+      "page": "/purchase/plan",
+      "pageName": "采购计划",
+      "jsErrors": [],
+      "hasCrash": false,
+      "tableRowCount": 20,
+      "screenshot": "d:\\Demo\\medical\\test-results\\improved-_purchase_plan.png",
+      "status": "PASS",
+      "detail": "崩溃=False, JS错误=0, 表格行=20"
+    },
+    {
+      "testId": "P04",
+      "page": "/purchase/order",
+      "pageName": "采购订单",
+      "jsErrors": [],
+      "hasCrash": false,
+      "tableRowCount": 20,
+      "screenshot": "d:\\Demo\\medical\\test-results\\improved-_purchase_order.png",
+      "status": "PASS",
+      "detail": "崩溃=False, JS错误=0, 表格行=20"
+    },
+    {
+      "testId": "P05",
+      "page": "/purchase/centralized",
+      "pageName": "集采统计",
+      "jsErrors": [],
+      "hasCrash": false,
+      "tableRowCount": 12,
+      "screenshot": "d:\\Demo\\medical\\test-results\\improved-_purchase_centralized.png",
+      "status": "PASS",
+      "detail": "崩溃=False, JS错误=0, 表格行=12"
+    },
+    {
+      "testId": "P06",
+      "page": "/inventory/overview",
+      "pageName": "库存总览",
+      "jsErrors": [],
+      "hasCrash": false,
+      "tableRowCount": 11,
+      "screenshot": "d:\\Demo\\medical\\test-results\\improved-_inventory_overview.png",
+      "status": "PASS",
+      "detail": "崩溃=False, JS错误=0, 表格行=11"
+    },
+    {
+      "testId": "P07",
+      "page": "/inventory/alert",
+      "pageName": "库存预警",
+      "jsErrors": [],
+      "hasCrash": false,
+      "tableRowCount": 11,
+      "screenshot": "d:\\Demo\\medical\\test-results\\improved-_inventory_alert.png",
+      "status": "PASS",
+      "detail": "崩溃=False, JS错误=0, 表格行=11"
+    },
+    {
+      "testId": "P08",
+      "page": "/inventory/transfer",
+      "pageName": "库存调剂",
+      "jsErrors": [],
+      "hasCrash": false,
+      "tableRowCount": 7,
+      "screenshot": "d:\\Demo\\medical\\test-results\\improved-_inventory_transfer.png",
+      "status": "PASS",
+      "detail": "崩溃=False, JS错误=0, 表格行=7"
+    },
+    {
+      "testId": "P09",
+      "page": "/inventory/zero",
+      "pageName": "零库存托管",
+      "jsErrors": [],
+      "hasCrash": false,
+      "tableRowCount": 7,
+      "screenshot": "d:\\Demo\\medical\\test-results\\improved-_inventory_zero.png",
+      "status": "PASS",
+      "detail": "崩溃=False, JS错误=0, 表格行=7"
+    },
+    {
+      "testId": "P10",
+      "page": "/inventory/replenishment",
+      "pageName": "自动补货",
+      "jsErrors": [],
+      "hasCrash": false,
+      "tableRowCount": 11,
+      "screenshot": "d:\\Demo\\medical\\test-results\\improved-_inventory_replenishment.png",
+      "status": "PASS",
+      "detail": "崩溃=False, JS错误=0, 表格行=11"
+    },
+    {
+      "testId": "P11",
+      "page": "/delivery/list",
+      "pageName": "配送列表",
+      "jsErrors": [],
+      "hasCrash": false,
+      "tableRowCount": 20,
+      "screenshot": "d:\\Demo\\medical\\test-results\\improved-_delivery_list.png",
+      "status": "PASS",
+      "detail": "崩溃=False, JS错误=0, 表格行=20"
+    },
+    {
+      "testId": "P12",
+      "page": "/delivery/track",
+      "pageName": "配送跟踪",
+      "jsErrors": [],
+      "hasCrash": false,
+      "tableRowCount": 20,
+      "screenshot": "d:\\Demo\\medical\\test-results\\improved-_delivery_track.png",
+      "status": "PASS",
+      "detail": "崩溃=False, JS错误=0, 表格行=20"
+    },
+    {
+      "testId": "P13",
+      "page": "/delivery/cold-chain",
+      "pageName": "冷链监控",
+      "jsErrors": [],
+      "hasCrash": false,
+      "tableRowCount": 10,
+      "screenshot": "d:\\Demo\\medical\\test-results\\improved-_delivery_cold-chain.png",
+      "status": "PASS",
+      "detail": "崩溃=False, JS错误=0, 表格行=10"
+    },
+    {
+      "testId": "P14",
+      "page": "/settlement/list",
+      "pageName": "结算列表",
+      "jsErrors": [],
+      "hasCrash": false,
+      "tableRowCount": 20,
+      "screenshot": "d:\\Demo\\medical\\test-results\\improved-_settlement_list.png",
+      "status": "PASS",
+      "detail": "崩溃=False, JS错误=0, 表格行=20"
+    },
+    {
+      "testId": "P15",
+      "page": "/settlement/reconciliation",
+      "pageName": "对账管理",
+      "jsErrors": [],
+      "hasCrash": false,
+      "tableRowCount": 20,
+      "screenshot": "d:\\Demo\\medical\\test-results\\improved-_settlement_reconciliation.png",
+      "status": "PASS",
+      "detail": "崩溃=False, JS错误=0, 表格行=20"
+    },
+    {
+      "testId": "P16",
+      "page": "/prescription/list",
+      "pageName": "处方列表",
+      "jsErrors": [],
+      "hasCrash": false,
+      "tableRowCount": 20,
+      "screenshot": "d:\\Demo\\medical\\test-results\\improved-_prescription_list.png",
+      "status": "PASS",
+      "detail": "崩溃=False, JS错误=0, 表格行=20"
+    },
+    {
+      "testId": "P17",
+      "page": "/prescription/create",
+      "pageName": "开具处方",
+      "jsErrors": [],
+      "hasCrash": false,
+      "tableRowCount": 20,
+      "screenshot": "d:\\Demo\\medical\\test-results\\improved-_prescription_create.png",
+      "status": "PASS",
+      "detail": "崩溃=False, JS错误=0, 表格行=20"
+    },
+    {
+      "testId": "P18",
+      "page": "/prescription/flow",
+      "pageName": "处方流转",
+      "jsErrors": [],
+      "hasCrash": false,
+      "tableRowCount": 20,
+      "screenshot": "d:\\Demo\\medical\\test-results\\improved-_prescription_flow.png",
+      "status": "PASS",
+      "detail": "崩溃=False, JS错误=0, 表格行=20"
+    },
+    {
+      "testId": "P19",
+      "page": "/quality/interaction",
+      "pageName": "合理用药",
+      "jsErrors": [],
+      "hasCrash": false,
+      "tableRowCount": 21,
+      "screenshot": "d:\\Demo\\medical\\test-results\\improved-_quality_interaction.png",
+      "status": "PASS",
+      "detail": "崩溃=False, JS错误=0, 表格行=21"
+    },
+    {
+      "testId": "P20",
+      "page": "/quality/trace",
+      "pageName": "药品追溯",
+      "jsErrors": [],
+      "hasCrash": false,
+      "tableRowCount": 21,
+      "screenshot": "d:\\Demo\\medical\\test-results\\improved-_quality_trace.png",
+      "status": "PASS",
+      "detail": "崩溃=False, JS错误=0, 表格行=21"
+    },
+    {
+      "testId": "P21",
+      "page": "/stats",
+      "pageName": "统计分析",
+      "jsErrors": [],
+      "hasCrash": false,
+      "tableRowCount": 13,
+      "screenshot": "d:\\Demo\\medical\\test-results\\improved-_stats.png",
+      "status": "PASS",
+      "detail": "崩溃=False, JS错误=0, 表格行=13"
+    }
+  ],
+  "interactionResults": [
+    {
+      "testId": "I01",
+      "page": "采购计划",
+      "action": "展开行查看明细",
+      "jsErrors": [],
+      "status": "PASS"
+    },
+    {
+      "testId": "I02",
+      "page": "统一用药目录",
+      "action": "打开详情Drawer",
+      "jsErrors": [],
+      "status": "PASS"
+    },
+    {
+      "testId": "I03",
+      "page": "统一用药目录",
+      "action": "打开新增Modal",
+      "jsErrors": [],
+      "status": "PASS"
+    }
+  ],
+  "summary": {
+    "totalPages": 21,
+    "passedPages": 21,
+    "failedPages": 0,
+    "totalInteractions": 3,
+    "passedInteractions": 3,
+    "failedInteractions": 0,
+    "totalJsErrors": 0
+  }
+}

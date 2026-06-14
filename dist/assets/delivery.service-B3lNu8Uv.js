@@ -1,0 +1,1 @@
+import{t as e}from"./api-D8VGzv1f.js";var t={getOrders:()=>e.get(`/api/v1/delivery/orders`),getColdChainData:()=>e.get(`/api/v1/delivery/cold-chain`),createOrder:t=>e.post(`/api/v1/delivery/orders`,t),updateOrder:(t,n)=>e.put(`/api/v1/delivery/orders/${t}`,n)};export{t};
