@@ -1,1 +1,0 @@
-import{t as e}from"./api-D8VGzv1f.js";var t={getList:()=>e.get(`/api/v1/prescriptions`),create:t=>e.post(`/api/v1/prescriptions`,t),submit:t=>e.put(`/api/v1/prescriptions/${t}`,{status:`SUBMITTED`}),review:(t,n)=>e.put(`/api/v1/prescriptions/${t}/review`,n),deletePrescription:t=>e.delete(`/api/v1/prescriptions/${t}`)};export{t};

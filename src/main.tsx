@@ -3,10 +3,9 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 
 async function bootstrap() {
-  if (import.meta.env.DEV) {
-    const { worker } = await import('./mock/browser');
-    await worker.start({ onUnhandledRequest: 'bypass' });
-  }
+  const { startMockWorker } = await import('./mock/browser');
+  await startMockWorker();
+
   ReactDOM.createRoot(document.getElementById('root')!).render(
     <React.StrictMode>
       <App />

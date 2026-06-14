@@ -1,0 +1,1 @@
+import{t as e}from"./api-BkU4ZrFT.js";var t={getOrders:()=>e.get(`/api/v1/settlement/orders`),getReconciliations:()=>e.get(`/api/v1/settlement/reconciliation`),updateOrder:(t,n)=>e.put(`/api/v1/settlement/orders/${t}`,n),updateReconciliation:(t,n)=>e.put(`/api/v1/settlement/reconciliation/${t}`,n)};export{t};
