@@ -1,0 +1,1 @@
+var e=e=>`¥${(e??0).toLocaleString(`zh-CN`,{minimumFractionDigits:2,maximumFractionDigits:2})}`,t=e=>`${(e??0).toFixed(1)}%`,n=e=>(e??0).toLocaleString(`zh-CN`);export{t as n,n as r,e as t};
