@@ -90,5 +90,5 @@ export const router = createBrowserRouter(
     element: <Navigate to="/dashboard" replace />,
   },
 ],
-  { basename: '/Medical/' },
+  { basename: import.meta.env.PROD ? '/Medical/' : '/' },
 );

@@ -2,7 +2,107 @@
   "hash": "f2224518",
   "configHash": "fe1cb702",
   "lockfileHash": "b37c31da",
-  "browserHash": "a8a5dd62",
-  "optimized": {},
-  "chunks": {}
+  "browserHash": "321bb1f6",
+  "optimized": {
+    "@ant-design/icons": {
+      "src": "../../node_modules/@ant-design/icons/es/index.js",
+      "file": "@ant-design_icons.js",
+      "fileHash": "43258ee0",
+      "needsInterop": false
+    },
+    "antd": {
+      "src": "../../node_modules/antd/es/index.js",
+      "file": "antd.js",
+      "fileHash": "6fcb8f7e",
+      "needsInterop": false
+    },
+    "antd/locale/zh_CN": {
+      "src": "../../node_modules/antd/locale/zh_CN.js",
+      "file": "antd_locale_zh___CN.js",
+      "fileHash": "d7742d7c",
+      "needsInterop": true
+    },
+    "axios": {
+      "src": "../../node_modules/axios/index.js",
+      "file": "axios.js",
+      "fileHash": "6a870669",
+      "needsInterop": false
+    },
+    "dayjs": {
+      "src": "../../node_modules/dayjs/dayjs.min.js",
+      "file": "dayjs.js",
+      "fileHash": "cefc5420",
+      "needsInterop": true
+    },
+    "msw": {
+      "src": "../../node_modules/msw/lib/core/index.mjs",
+      "file": "msw.js",
+      "fileHash": "b0b57034",
+      "needsInterop": false
+    },
+    "msw/browser": {
+      "src": "../../node_modules/msw/lib/browser/index.mjs",
+      "file": "msw_browser.js",
+      "fileHash": "90964249",
+      "needsInterop": false
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "52c879cb",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.mjs",
+      "file": "react-router-dom.js",
+      "fileHash": "0f69ab6c",
+      "needsInterop": false
+    },
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "9f80dbab",
+      "needsInterop": true
+    },
+    "react/jsx-dev-runtime": {
+      "src": "../../node_modules/react/jsx-dev-runtime.js",
+      "file": "react_jsx-dev-runtime.js",
+      "fileHash": "85c2212b",
+      "needsInterop": true
+    },
+    "zustand": {
+      "src": "../../node_modules/zustand/esm/index.mjs",
+      "file": "zustand.js",
+      "fileHash": "16df2582",
+      "needsInterop": false
+    },
+    "zustand/middleware": {
+      "src": "../../node_modules/zustand/esm/middleware.mjs",
+      "file": "zustand_middleware.js",
+      "fileHash": "851692ad",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "ZoomOutOutlined-BRd-CHmd": {
+      "file": "ZoomOutOutlined-BRd-CHmd.js",
+      "isDynamicEntry": false
+    },
+    "chunk-B-1-B7_t": {
+      "file": "chunk-B-1-B7_t.js",
+      "isDynamicEntry": false
+    },
+    "client-BcpD7XeE": {
+      "file": "client-BcpD7XeE.js",
+      "isDynamicEntry": false
+    },
+    "react-dom-Br2l1Z8p": {
+      "file": "react-dom-Br2l1Z8p.js",
+      "isDynamicEntry": false
+    },
+    "storeResponseCookies-Bg_K5QEg": {
+      "file": "storeResponseCookies-Bg_K5QEg.js",
+      "isDynamicEntry": false
+    }
+  }
 }
